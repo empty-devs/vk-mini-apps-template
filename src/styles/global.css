@@ -1,0 +1,9 @@
+*:not(input):not(textarea),
+::after,
+::before {
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}

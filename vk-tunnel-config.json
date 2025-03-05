@@ -1,0 +1,14 @@
+{
+  "app_id": 8036645,
+  "endpoints": [
+    "mobile",
+    "mvk",
+    "web"
+  ],
+  "host": "localhost",
+  "port": 29846,
+  "http-protocol": "http",
+  "wss-protocol": "ws",
+  "insecure": 0,
+  "timeout": 5000
+}

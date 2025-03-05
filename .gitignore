@@ -1,0 +1,12 @@
+.idea/
+node_modules/
+dist/
+dist-ssr/
+dist-zip
+yarn-error.log
+tsconfig.tsbuildinfo
+build/
+build.zip
+.env
+.env.production
+.env.development
