@@ -13,6 +13,7 @@
 - **Vite** (сборщик)
 - **VKRouter** (роутинг для VK Mini Apps)
 - **VKUI** (компонентная библиотека от VK)
+- **VK Bridge** (API между VK и клиентом)
 - **ESLint** (линтер для поддержания качества кода)
 - **Prettier** (форматирование кода)
 - **PostCSS** (для работы со стилями)
@@ -32,16 +33,7 @@ yarn install
 Перед запуском необходимо:
 
 - Изменить `app_id` в файлах `vk-tunnel-config.json` и `vk-hosting-config.json`.
-- Переименовать `.env.example` в `.env` и задать нужные параметры:
-  ```env
-  VITE_APP_VERSION=0.0.1
-  VITE_API_URL=https://example.com/api/
-  VITE_API_VERSION=1
-
-  VITE_VK_APP_ID=
-  VITE_VK_GROUP_ID=
-  VITE_VK_GROUP_NAME=
-  ```
+- Переименовать `.env.example` в `.env` и задать нужные параметры.
 
 ### 3. Запуск проекта
 
@@ -51,7 +43,7 @@ yarn install
 yarn dev
 ```
 
-Чтобы создать туннель:
+Чтобы запустить туннель:
 
 ```sh
 yarn vk tunnel
@@ -73,6 +65,8 @@ yarn vk tunnel
 - [VKUI](https://dev.vk.com/ru/libraries/vkui)
 - [VK Tunnel](https://dev.vk.com/ru/libraries/tunnel)
 - [VK Router](https://dev.vk.com/ru/libraries/router)
+- [VK Bridge](https://dev.vk.com/ru/bridge/overview)
+- [VK Deploy](https://dev.vk.com/ru/mini-apps/development/hosting/overview)
 - [Zustand](https://zustand.docs.pmnd.rs/getting-started/introduction)
 - [Vite](https://vite.dev/guide/)
 - [React](https://react.dev/learn)
