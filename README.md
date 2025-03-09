@@ -2,9 +2,9 @@
 
 ## Описание
 
-**VK Mini Apps Template** – это шаблон для быстрой разработки мини-приложений ВКонтакте.
+**VK Mini Apps Template** – это бойлерплейт для быстрой разработки мини-приложений ВКонтакте.
 
-Данный шаблон был разработан для использования вместе с [VK REST API Template](https://github.com/empty-devs/vk-rest-api-template).
+Данный бойлерплейт был разработан для использования вместе с [VK REST API Template](https://github.com/empty-devs/vk-rest-api-template).
 
 ## Технологии
 
